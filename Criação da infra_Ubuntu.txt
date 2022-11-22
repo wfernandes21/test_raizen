@@ -28,7 +28,6 @@ airflow db init
 airflow webserver --port 8080
 nohup airflow scheduler
 
-
 ###Open Jupter:
 jupyter notebook password
 nohup jupyter notebook --ip='*' --port=8888 --allow-root
